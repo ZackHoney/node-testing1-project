@@ -70,7 +70,9 @@ class Counter {
    * counter.countDown() // returns 0
    */
   countDown() {
-    // ✨ implement
+    // ✨ implement\
+    // Another way to code it
+    // return this.count > 0 ? this.count-- : this.count
     if (this.count > 0) {
       return this.count--
     }
